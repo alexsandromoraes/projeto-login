@@ -1,7 +1,62 @@
 @charset "UTF-8";
 
 /*
-    Paçeta de Cores:
+    Paçeta de Cores (do original):
     Verde: #49a09d
     Lilaz: #5f2c82
 */
+
+/*
+    Paçeta de Cores (meu):
+    Preto: #00090D
+    azul: #011F26
+    Cinza: #B9B8BF
+    Amarelo: #F28705
+*/
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: #011F26;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    background-color: white;
+    width: 280px;
+    height: 530px;
+    overflow: hidden; /* Util*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.495);
+}
+
+section#login > div#imagem{
+    display: block;
+    background-image: url(../imagens/pexels-dinnow-86001860-9444476.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+section#login > div#formulário{
+    display: block;
+    padding: 10px;
+}
