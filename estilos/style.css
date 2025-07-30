@@ -45,6 +45,9 @@ section#login{
     border-radius: 20px;
     transform: translate(-50%,-50%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.495);
+
+    transition: width 0.7s, heigth 0.7s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
