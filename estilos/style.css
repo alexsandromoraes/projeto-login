@@ -64,6 +64,19 @@ section#login > div#formulário{
     padding: 10px;
 }
 
+form > p.enviar{
+    background-color: #B9B8BF;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+p.enviar >label {
+    display: none;
+}
+
 div#formulário > h1{
     text-align: center;
     margin-bottom: 10px;
@@ -71,4 +84,42 @@ div#formulário > h1{
 
 div#formulário > p{
     font-size: 0.8em;
+}
+
+form > p > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: #104e5e;
+    color: white;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > p > input[type=submit]:hover {
+    background-color: #060d0e;
+    font-size: 1.1em;
+}
+
+form > p > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #1c788f;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding: 3px;
+}
+
+form > p > a:hover {
+    background-color: #060d0e;
+    font-size: 1.1em;
 }
