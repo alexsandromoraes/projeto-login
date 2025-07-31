@@ -43,9 +43,9 @@ section#login{
     top: 50%;
     left: 50%;
     border-radius: 20px;
-    transform: translate(-50%,-50%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.495);
 
+    transform: translate(-50%,-50%);
     transition: width 0.7s, heigth 0.7s;
     transition-timing-function: ease;
 }
@@ -69,12 +69,33 @@ form > p.enviar{
     display: block;
     height: 40px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 p.enviar >label {
     display: none;
+}
+
+p.enviar > span {
+
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+}
+
+p.enviar > input {
+    background-color: #2fb6d897;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    transform: translateY(-10px);
+}
+
+p.enviar >input:focus-within{
+    background-color: white;
 }
 
 div#formulário > h1{
